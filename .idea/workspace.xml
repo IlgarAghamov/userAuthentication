@@ -4,11 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f742588-a884-46d3-9da5-d84fbd3f7c73" name="Changes" comment="" />
+    <list default="true" id="8f742588-a884-46d3-9da5-d84fbd3f7c73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/DataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/page-templates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -21,11 +56,46 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ApiPost:METDOD_SEND_RECORD:untitled10": "{\"/index\":[{\"url\":\"http://localhost:8080/index\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8080/index\\n\\n\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":4.0,\"day\":23.0},\"time\":{\"hour\":1.0,\"minute\":57.0,\"second\":57.0,\"nano\":4.678974E8}}}],\"/user\":[{\"url\":\"http://localhost:8080/user\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8080/user\\n\\n\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":4.0,\"day\":23.0},\"time\":{\"hour\":1.0,\"minute\":58.0,\"second\":3.0,\"nano\":7.788976E8}}}],\"/\":[{\"url\":\"http://localhost:8080/\",\"header\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"\\u003c!DOCTYPE html\\u003e\\r\\n\\u003chtml xmlns\\u003d\\\"http://www.w3.org/1999/xhtml\\\"\\u003e\\r\\n\\u003chead\\u003e\\r\\n    \\u003cmeta charset\\u003d\\\"utf-8\\\"\\u003e\\r\\n    \\u003cmeta name\\u003d\\\"viewport\\\"\\r\\n          content\\u003d\\\"width\\u003ddevice-width, initial-scale\\u003d1, shrink-to-fit\\u003dno\\\"\\u003e\\r\\n    \\u003ctitle\\u003eSpring Boot Tutorial\\u003c/title\\u003e\\r\\n    \\u003clink rel\\u003d\\\"stylesheet\\\" href\\u003d\\\"/css/style.css\\\"\\u003e\\r\\n\\u003c/head\\u003e\\r\\n\\u003cbody\\u003e\\r\\n\\u003cdiv\\u003e\\r\\n    \\u003cnav class\\u003d\\\"navbar\\\"\\u003e\\r\\n        \\u003ch1 class\\u003d\\\"logo\\\"\\u003eSpring Boot Tutorial\\u003c/h1\\u003e\\r\\n        \\u003cul class\\u003d\\\"nav-links\\\"\\u003e\\r\\n            \\u003cli class\\u003d\\\"nav-item\\\"\\u003e\\u003ca href\\u003d\\\"/\\\"\\u003eHome\\u003c/a\\u003e\\u003c/li\\u003e\\r\\n            \\r\\n            \\r\\n            \\u003cli class\\u003d\\\"nav-item\\\"\\u003e\\u003ca href\\u003d\\\"/login\\\"\\u003eLogin\\u003c/a\\u003e\\u003c/li\\u003e\\r\\n            \\r\\n        \\u003c/ul\\u003e\\r\\n    \\u003c/nav\\u003e\\r\\n\\u003c/div\\u003e\\r\\n\\u003cdiv class\\u003d\\\"main\\\"\\u003e\\r\\n    \\u003cdiv\\u003e\\u003c/div\\u003e\\r\\n    \\u003cdiv class\\u003d\\\"text\\\"\\u003e\\r\\n        \\u003ch2\\u003eHome\\u003c/h2\\u003e\\r\\n    \\u003c/div\\u003e\\r\\n    \\u003cdiv\\u003e\\r\\n    \\u003cp class\\u003d\\\"center\\\"\\u003e\\u0026#169; Example from internet\\u003c/p\\u003e\\r\\n\\u003c/div\\u003e\\r\\n\\u003c/div\\u003e\\r\\n\\u003c/body\\u003e\\r\\n\\u003c/html\\u003e\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024,\"month\":4,\"day\":23},\"time\":{\"hour\":1,\"minute\":58,\"second\":21,\"nano\":422897300}}}]}",
+    "Application.Application.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/99455/Desktop/student/untitled10/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/99455/Desktop/student/untitled10/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\99455\Desktop\student\untitled10\src\main\resources\static\css" />
+      <recent name="C:\Users\99455\Desktop\student\untitled10\src\main\resources\static" />
+      <recent name="C:\Users\99455\Desktop\student\untitled10\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Application" />
+      <module name="untitled10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,16 +106,5 @@
       <updated>1713821849237</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -6,20 +6,11 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
 @SpringBootApplication
-@EnableResourceServer
-@EnableWebSecurity
-public class ResourceServerApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ResourceServerApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
-    @EnableWebSecurity
-    public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-        @Override
-        protected void configure(HttpSecurity http) throws Exception {
-            http.authorizeRequests().antMatchers("/api/**").authenticated().and().csrf().disable();
-        }
-    }
 }

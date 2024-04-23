@@ -1,2 +1,12 @@
-package org.example.service;public class HomeService {
+package org.example.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class HomeService {
+
+    public String getText() {
+        return "Home";
+    }
+
 }
